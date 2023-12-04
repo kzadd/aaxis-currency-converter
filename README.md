@@ -1,17 +1,26 @@
 # The package where lives the AXXIS convert currency project
 
-## Build Setup
+## 🛫 Quick Setup
 
-```bash
-# install dependencies
-$pnpm install
+```sh
+# clone the project
+git clone https://github.com/kzadd/aaxis-currency-converter.git
 
-# serve with hot reload at localhost:3000
-$pnpm start:dev
+# enter the project directory
+cd aaxis-currency-converter
 
-# build for production and launch server
-$pnpm start:build
+# install dependency
+pnpm instal
+```
 
-# preview project for production server
-$pnpm preview
+## 📂 .env configure
+
+Set environment variables in an .env file, you can rename the .env.example or copy that file and paste it into the .env file.
+
+It is necessary to implement the "VITE_API_KEY" which is obtained within the platform. [freecurrencyapi](https://freecurrencyapi.com/)
+
+## 👀 Start project
+
+```sh
+pnpm start:dev
 ```
