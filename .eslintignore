@@ -1,0 +1,6 @@
+# Basics
+.eslintrc.cjs
+dist
+dist-ssr
+node_modules
+vite.config.js
